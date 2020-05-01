@@ -225,7 +225,6 @@ func SetupPath(ctx Context, config Config) {
 	// LogEntry listener above at build time.
 	for _, name := range execs {
 		if !paths.GetConfig(name).Symlink {
-			// Ignore host tools that shouldn't be symlinked.
 			continue
 		}
 
