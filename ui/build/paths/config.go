@@ -122,6 +122,7 @@ var Configuration = map[string]PathConfig{
 	"zip":     Allowed,
 	"arm-linux-androidkernel-as": Allowed,
 	"arm-linux-androidkernel-ld": Allowed,
+	"aarch64-linux-gnu-as": Allowed,
 
 	"python3.6": Allowed,
 	"python3.7": Allowed,
