@@ -147,7 +147,6 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 var BannerVars = []string{
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
-	"PRODUCT_INCLUDE_TAGS",
 	"PRODUCT_SOURCE_ROOT_DIRS",
 	"TARGET_PRODUCT",
 	"TARGET_BUILD_VARIANT",
@@ -240,6 +239,7 @@ func runMakeProductConfig(ctx Context, config Config) {
 		"HOST_CROSS_ARCH",
 		"HOST_CROSS_2ND_ARCH",
 		"HOST_BUILD_TYPE",
+		"PRODUCT_INCLUDE_TAGS",
 
 		"DEFAULT_WARNING_BUILD_MODULE_TYPES",
 		"DEFAULT_ERROR_BUILD_MODULE_TYPES",
